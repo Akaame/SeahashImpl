@@ -1,0 +1,6 @@
+.vscode
+
+main
+main_b
+*.profraw
+*.profdata
