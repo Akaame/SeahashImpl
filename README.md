@@ -14,9 +14,10 @@ v2 contains a faster implementation to the classical loop unrolling methodology.
 
 Below results are from a 1,4 GHz Quad-Core Intel Core i5.
 
-v1 Speed: 2.057 GB/s
-v2 Speed: 3.508 GB/s
+* v1 Speed: 2.057 GB/s
+* v2 Speed: 3.508 GB/s
 
 ## TODOS
 
-* Get rid of the part which creates larger strings concatting the same string into sstream and use CPP2A ranges.
+* Get rid of the part which creates larger strings concatting the same string into sstream and use CPP2A ranges. (Add Ranges)
+* Create a v3 which works with streaming input. Make main hashing routine a generator coroutine that yields intermediate values. Then finalize with handling of excessive values and final XOR call. (Add Coroutines)
