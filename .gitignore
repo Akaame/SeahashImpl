@@ -5,4 +5,4 @@ main_b
 *.profraw
 *.profdata
 
-.DS_Store
+**/.DS_Store
